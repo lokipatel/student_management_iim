@@ -1,0 +1,38 @@
+#gradesData {
+    font-family:arial;
+    font-size: 10px;
+    width: 80%;
+    margin: auto;
+    height: 250px;
+  }
+  
+  
+  #gradesData > thead > tr > td,  #gradesData > tbody > tr > td, #gradesData > tfoot > tr > td {
+    border: 1px solid #726E6D;
+    padding: 4px;
+  }
+  
+  #gradesData > thead{
+    font-weight:bold;
+    text-align:center;
+    background: #625D5D;
+    color:white;
+  }
+  
+  #gradesData {
+    border-collapse: collapse;
+  }
+  
+  #gradesData > tfoot > tr > .footer {
+    text-align:right;
+    font-weight:bold;
+  }
+  
+  #gradesData > tbody >tr:nth-child(odd) {
+    background: #D1D0CE;
+  }
+
+  #gradesData >tbody {
+    text-align:center;
+  }
+  
